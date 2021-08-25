@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1c725400fe65d554ec391635dce9c0d",
+    "content-hash": "d93576e9eb9e90043db2358f26e73c08",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -5874,21 +5874,22 @@
     "packages-dev": [
         {
             "name": "symplify/config-transformer",
-            "version": "9.4.39",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/config-transformer.git",
-                "reference": "41785412960d760ab23728cf6e404b6a0c72211e"
+                "reference": "e790193024423213e0c9533ae096ac593677ff69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/41785412960d760ab23728cf6e404b6a0c72211e",
-                "reference": "41785412960d760ab23728cf6e404b6a0c72211e",
+                "url": "https://api.github.com/repos/symplify/config-transformer/zipball/e790193024423213e0c9533ae096ac593677ff69",
+                "reference": "e790193024423213e0c9533ae096ac593677ff69",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "bin": [
                 "bin/config-transformer"
             ],
@@ -5899,7 +5900,7 @@
             ],
             "description": "Prefixed version of Symfony YAML/XML to PHP/YAML config converter",
             "support": {
-                "source": "https://github.com/symplify/config-transformer/tree/9.4.39"
+                "source": "https://github.com/symplify/config-transformer/tree/main"
             },
             "funding": [
                 {
@@ -5911,16 +5912,18 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-24T11:13:06+00:00"
+            "time": "2021-08-24T16:27:53+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "symplify/config-transformer": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2.5",
+        "php": ">=8.0.9",
         "ext-ctype": "*",
         "ext-iconv": "*"
     },

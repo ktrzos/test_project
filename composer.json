@@ -16,7 +16,7 @@
         "symfony/yaml": "5.3.*"
     },
     "require-dev": {
-        "symplify/config-transformer": "^9.4"
+        "symplify/config-transformer": "dev-main"
     },
     "config": {
         "optimize-autoloader": true,
